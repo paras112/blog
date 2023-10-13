@@ -1,0 +1,220 @@
+Search icon
+Search everything
+Get Started
+Enroll
+Reviews
+Courses
+Blog
+Help
+Login
+Blog
+Django, Virtualenv, & Python .gitignore File
+Django
+Git
+gitignore
+Pipenv
+Virtualenv
+virtual environment
+Django, Virtualenv, & Python .gitignore File
+By Justin Mitchel on July 30, 2017
+Comments
+We use .gitignore files often. Here's an example you might consider using in your projects:
+
+CopyCopyCopyCopyCopy
+.DS_STORE
+
+# Virtualenv related
+bin/
+include/
+pip-selfcheck.json
+
+# Django related
+# src/<yourproject>/settings/local.py
+# static-cdn/  # any collected static files
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+.myvenv
+env/
+venv/
+ENV/
+myvenv/
+/db.sqlite3
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+Comment
+Write a comment
+Please login or sign up to comment. Add comment
+
+omarbaleid
+omarbaleid
+4 years, 2 months ago
+
+Thank you very much for the wonderful effort
+
+View Thread Reply
+jmitchel3
+jmitchel3
+4 years, 2 months ago
+
+Thank you!
+
+Write reply
+Please login or sign up to comment. Add comment
+
+JReichner
+JReichner
+4 years, 7 months ago
+
+thumbs up!
+
+View Thread Reply
+Loading replies...
+
+g
+girisagar46
+5 years, 10 months ago
+
+This is so helpful.
+
+Thank you so much
+
+View Thread Reply
+Loading replies...
+
+Related Topics
+Django Git gitignore Pipenv Virtualenv virtual environment
+Sidebar
+New posts in your inbox
+Join 70k+ others.
+
+Enter your email
+Join
+Discover
+Recent
+Popular
+Time Series with Python & MongoDB Guide
+Time Series with Python & MongoDB Guide
+Getting Started with HarperDB & Express.js on Ubuntu x Linode
+Getting Started with HarperDB & Express.js on Ubuntu x Linode
+Kubernetes Service Account & RBAC for GitHub Actions
+Kubernetes Service Account & RBAC for GitHub Actions
+Download the MovieLens Dataset with Python
+Download the MovieLens Dataset with Python
+Create a One-Off Django Secret Key
+Create a One-Off Django Secret Key
+Coding for Entrepreneurs Logo
+Coding for Entrepreneurs
+RECENT POSTS
+Configure Kubernetes for NGINX with ingress-nginx
+Kubernetes Service Account & RBAC for GitHub Actions
+Using Google Secrets Manager with Python Decouple and GitHub Actions
+Create a One-Off Django Secret Key
+Try Knative
+RESOURCES
+Courses
+Reviews
+Ask a Question
+Suggest an Idea
+Get Help
+Code References
+YouTube
+Twitter
+© 2023 codingforentrepreneurs.com · All Rights Reserved. · Privacy Policy · Terms & Conditions
+YouTube page
+Facebook page
+Instagram page
+Twitter page
+GitHub account
